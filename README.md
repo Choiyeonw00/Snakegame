@@ -1,15 +1,14 @@
 # Snakegame
 
 
-# 개발 목표
+## 개발 목표
 
-1단계 목표-Map의 구현:
+### 1단계 목표-Map의 구현:
 
 프로젝트의 첫 번째 단계는 Ncurses 라이브러리 함수를 사용하여 Snake 맵을 게임 화면에 출력하는 것입니다.
 
- 
 
-2단계 목표-Snake 표현 및 조작:
+### 2단계 목표-Snake 표현 및 조작:
 
 두 번째 단계의 목표는 Map 위에 Snake를 표시하고, 사용자로부터 화살표 키 입력을 받아 Snake가 일정 속도로 움직이도록 프로그램을 완성합니다.
 
@@ -22,7 +21,7 @@ Snake의 Head가 이동할 때마다 Tail도 이동해야 하며, Tail은 진행
 
  
 
-3단계 목표-Item 요소의 구현:
+### 3단계 목표-Item 요소의 구현:
 
 세 번째 단계에서는 2단계 프로그램을 수정하여 Map 위에 Growth Item과 Poison Item, Special Item이 출현하도록 합니다.
 
@@ -38,7 +37,7 @@ Growth Item과 Poison Item, Special Item은 Snake의 Body와 Wall이 없는 임�
 
  
 
-4단계 목표-Gate요소의 구현:
+### 4단계 목표-Gate요소의 구현:
 
 네 번째 단계에서는 3단계 프로그램을 수정하여 Map에 Wall의 임의의 위치에 Gate가 출현할 수 있도록 합니다.
 
@@ -58,7 +57,7 @@ Immune Wall은 Wall이 겹치는 곳에 위치한 Wall로, Gate로 변할 수 �
 
  
 
-5단계 목표-점수 요소의 구현:
+### 5단계 목표-점수 요소의 구현:
 
 다섯 번째 단계에서는 프로그램 우측에 게임 점수를 표시하는 Score Board를 구성합니다.
 
@@ -70,9 +69,9 @@ Mission은 목표 달성 여부를 표시하며, B(Body), G(Growth Item), P(Pois
 
 
 
-# 세부 개발 내용
+## 세부 개발 내용
 
-1단계:
+### 1단계:
 
 Snake Map을 게임 화면에 출력하기 위해 Ncurses 라이브러리 함수들을 사용합니다.
 
@@ -82,7 +81,7 @@ Wall은 -|, 모서리는 X로 나타납니다.
 
  
 
-2단계:
+### 2단계:
 
 게임 화면에 Snake를 표시하고, 사용자가 화살표를 입력하면 Snake가 일정 거리를 이동하도록 프로그램을 완성합니다.
 
@@ -96,7 +95,7 @@ Snake의 머리는 이동 방향을 따라 움직이고, 꼬리는 이동할 수
 
  
 
-3단계:
+### 3단계:
 
 2단계 프로그램을 수정하여 Growth Item과 Poison Item, Special Item이 나타날 수 있도록 합니다.
 
@@ -114,7 +113,7 @@ Growth Item과 Poison Item, Special Item은 Snake의 몸통과 Wall이 없는 �
 
  
 
-4단계:
+### 4단계:
 
 3단계 프로그램을 수정하여 Map에 Gate 쌍이 나타날 수 있도록 합니다.
 
@@ -132,7 +131,7 @@ Immune Wall은 Gate로 변할 수 없는 위치에 있습니다.
 
  
 
-5단계:
+### 5단계:
 
 프로그램에 Score Board와 Mission을 추가합니다.
 
