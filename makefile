@@ -1,0 +1,2 @@
+all:
+	g++ src/GameScene.cpp src/GameOverScene.cpp src/Snake.cpp src/Stage.cpp src/Function.cpp src/ItemRun.cpp src/MapRun.cpp src/GameStartScene.cpp src/GateRun.cpp src/Format.cpp src/Item.cpp src/main.cpp src/GameCoverScene.cpp -lncurses -o /tmp/a.out && /tmp/a.out
